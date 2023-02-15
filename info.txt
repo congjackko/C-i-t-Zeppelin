@@ -53,4 +53,4 @@ B10. Ta cần cấu hình vài thứ để chạy python.
 	Vào phàn Interpert tìm phần spark và chỉnh sữa đường dẫn đến môi trường ảo của python:
 	E:\zeppelin-0.8.2-bin-all\python\venv\Scripts\python.exe
 B11. Tạo và chạy file.
-	
+Note: Một số trường hợp bị lỗi truy xuất các bạn nhớ thêm /#/ sau đường dẫn ta có: http://127.0.0.1:8080/#/

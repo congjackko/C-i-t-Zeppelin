@@ -33,6 +33,7 @@ B3. Tiếp theo ta cần lấy đường dẫn của môi trường ảo trong p
 	luôn dẫn đến thư mục chứ môi trường ảo venv bên trong file: zeppelin-0.8.2-bin-all	
 B4. Kết hợp hai đường dẫn trên như sau:
 	set PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\zeppelin-0.8.2-bin-all\python\venv\Scripts;
+Note: Một số trường hợp bị lỗi, vậy các bạn chú ý thêm dấu /#/ nhé: như sau: http://127.0.0.1:8080/#/
 B5. Chèn vào hai file sau từ khóa REM cuối cùng (Bản chất của từ khóa REM trong cmd đóng vai trò như là comment giống với // trong c)
 	common.cmd
 	zeppelin.cmd
